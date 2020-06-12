@@ -40,7 +40,10 @@ phases:
         applicationId: '8'
         comparisonStrategy: COMPARE_WITH_PREVIOUS
         executeWithPreviousSteps: false
-        hostnameTemplate: ${instance.hostName}
+        hostnameTemplate: ${instance.host.hostName}
+        templateUuid: null
+        templateVariables: null
+        templateVersion: null
         tierId: '14'
         timeDuration: '10'
     stepsInParallel: false
