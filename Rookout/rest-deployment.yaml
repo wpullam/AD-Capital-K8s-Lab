@@ -37,7 +37,7 @@ spec:
         - name: ROLE
           value: rest
         - name: APPDYNAMICS_AGENT_NODE_NAME
-          value: Authentication-Service
+          value: authentication
         - name: APPD_ANALYTICS_MONITOR
           value: "true"
         - name: APPD_DOCKER_VISIBILITY
