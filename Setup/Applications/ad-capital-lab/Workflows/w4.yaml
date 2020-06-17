@@ -38,9 +38,12 @@ phases:
         analysisServerConfigId: G6yQ-H78Qt-RO_kZuMOLUw
         analysisTolerance: LOW
         applicationId: '8'
-        comparisonStrategy: COMPARE_WITH_PREVIOUS
+        comparisonStrategy: COMPARE_WITH_CURRENT
         executeWithPreviousSteps: false
         hostnameTemplate: ${instance.host.hostName}
+        templateUuid: null
+        templateVariables: null
+        templateVersion: null
         tierId: '14'
         timeDuration: 15
     stepsInParallel: false
