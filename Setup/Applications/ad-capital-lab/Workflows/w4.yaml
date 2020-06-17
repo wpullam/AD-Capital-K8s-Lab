@@ -40,12 +40,12 @@ phases:
         applicationId: '8'
         comparisonStrategy: COMPARE_WITH_CURRENT
         executeWithPreviousSteps: false
-        hostnameTemplate: ${instance.name}
+        hostnameTemplate: ${host.hostName}
         templateUuid: null
         templateVariables: null
         templateVersion: null
         tierId: '14'
-        timeDuration: 15
+        timeDuration: '10'
     stepsInParallel: false
   - type: K8S_PHASE_STEP
     name: Wrap Up
