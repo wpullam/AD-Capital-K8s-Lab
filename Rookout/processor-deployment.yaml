@@ -37,7 +37,9 @@ spec:
         - name: JAVA_TOOL_OPTIONS
           value: "-javaagent:/appdynamics/rook.jar"
         - name: APPDYNAMICS_AGENT_NODE_NAME
-          value: Processor
+          valueFrom:
+            fieldRef:
+              fieldPath: metadata.name
         - name: APPDYNAMICS_AGENT_TIER_NAME
           value: LoanProcessor-Services
         - name: APPD_ANALYTICS_MONITOR
