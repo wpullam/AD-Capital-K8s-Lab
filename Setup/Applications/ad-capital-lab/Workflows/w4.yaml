@@ -40,8 +40,11 @@ phases:
         applicationId: '8'
         comparisonStrategy: COMPARE_WITH_PREVIOUS
         executeWithPreviousSteps: false
+        templateUuid: null
+        templateVariables: null
+        templateVersion: null
         tierId: '14'
-        timeDuration: '10'
+        timeDuration: '20'
     stepsInParallel: false
   - type: K8S_PHASE_STEP
     name: Wrap Up
