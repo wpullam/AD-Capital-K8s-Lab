@@ -35,14 +35,13 @@ phases:
     - type: APP_DYNAMICS
       name: AppDynamics
       properties:
-        analysisServerConfigId: UR1i7Kr0T_ubMxURl559BA
+        analysisServerConfigId: G6yQ-H78Qt-RO_kZuMOLUw
         analysisTolerance: LOW
         applicationId: '8'
         comparisonStrategy: COMPARE_WITH_PREVIOUS
         executeWithPreviousSteps: false
-        hostnameTemplate: ${instance.host.hostName}
         tierId: '14'
-        timeDuration: '10'
+        timeDuration: 15
     stepsInParallel: false
   - type: K8S_PHASE_STEP
     name: Wrap Up
