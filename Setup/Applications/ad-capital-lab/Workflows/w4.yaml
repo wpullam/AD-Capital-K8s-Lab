@@ -35,7 +35,7 @@ phases:
     - type: APP_DYNAMICS
       name: AppDynamics
       properties:
-        analysisServerConfigId: G6yQ-H78Qt-RO_kZuMOLUw
+        analysisServerConfigId: lj9nLjWITMyGv2UC1YFisg
         analysisTolerance: LOW
         applicationId: '8'
         comparisonStrategy: COMPARE_WITH_CURRENT
