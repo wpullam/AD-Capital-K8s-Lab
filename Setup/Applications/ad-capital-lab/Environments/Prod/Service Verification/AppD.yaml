@@ -1,0 +1,10 @@
+harnessApiVersion: '1.0'
+type: APP_DYNAMICS
+alertEnabled: false
+alertThreshold: 0.5
+analysisTolerance: LOW
+appDynamicsApplicationName: AD-Capital
+connectorName: App Dynamics
+enabled24x7: true
+serviceName: ad-capital-lab-portalOnly
+tierName: Portal-Service
